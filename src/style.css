@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: #f6f3ee;
+}
+
+.links {
+  writing-mode: vertical-lr;
+  display: flex;
+  transform: rotate(180deg);
+  word-spacing: 1cm;
+  letter-spacing: 1.2px;
+  padding-left: 10%;
+}
+
+.intro {
+  display: inline;
+  /* position: absolute; */
+  top: 0;
+  margin-right: 45px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+}
+
+.right-column {
+  text-align: left;
+  padding-left: 22%;
+}
+
+.large-text {
+  font-size: 130px;
+}
